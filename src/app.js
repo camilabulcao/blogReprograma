@@ -1,10 +1,10 @@
-const express = require('express');
-const postagem = require('./models/posts');
-const app = express();
+const express = require('express')
+const app = express()
+const router = require('./routes/postagemRoutes')
 
-const tarefas = require('./');
+//rotas
 
-app.use(express.json());
-app.use('/', postagem);
+app.use(express.json())
+app.use('/', router)
 
-module.exports = app;
+module.exports = app

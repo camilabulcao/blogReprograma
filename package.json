@@ -1,0 +1,25 @@
+{
+  "name": "blogreprograma",
+  "version": "1.0.0",
+  "description": "Motivação - \r Aprender a usar os seguintes métodos HTTP: \r Post - criação de recursos e \r Delete- deletar a informação",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/camilabulcao/blogReprograma.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/camilabulcao/blogReprograma/issues"
+  },
+  "homepage": "https://github.com/camilabulcao/blogReprograma#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4"
+  }
+}

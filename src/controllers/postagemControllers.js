@@ -24,7 +24,12 @@ const criarPost = (request, response) =>{
 const deletebyId = (request, response) =>{
     const id = request.params
 
-    postagemModel.filter(item => item.id == id)
+    const postFiltrados = postagemModel.filter(item => {
+        return item.id == id}) [0]
+
+    const index = postagemModel.indexOf(postFiltrados)
+
+    postagemModel.splice(index,1)
 
     response.json(postagemModel)
 
