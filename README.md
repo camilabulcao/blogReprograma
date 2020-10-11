@@ -7,7 +7,7 @@ Post - criação de recursos e
 Delete- deletar a informação
 
 Arquitetura 
-
+https://app.diagrams.net/#Hcamilabulcao%2FblogReprograma%2Fmain%2FBlogReprograma.drawio
 
 
 
