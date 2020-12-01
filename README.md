@@ -1,12 +1,14 @@
-# blogReprograma
+# blogReprograma 💁 
 
 
 Motivação - 
 Aprender a usar os seguintes métodos HTTP: 
-Post - criação de recursos e 
+
+Post - criação de recursos 
+
 Delete- deletar a informação
 
-Arquitetura 
+## Arquitetura 
 
 
 ![BlogReprograma](https://user-images.githubusercontent.com/69392233/95685301-53f99980-0bcd-11eb-983a-3a879b65f8f3.png)
@@ -19,6 +21,10 @@ Arquitetura
 
 
 Ferramentas utilizadas:
-Express, Nodemon, Node Js, Cors
+
+* Express
+* Nodemon
+* Nodejs 
+* Cors
 
 
